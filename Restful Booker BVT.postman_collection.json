@@ -1131,9 +1131,6 @@
 							"pm.test(\"Ping is successful\", function () {",
 							"    pm.response.to.be.success;",
 							"});",
-							"pm.test(\"Status code is 200\", function () {",
-							"    pm.response.to.have.status(200);",
-							"});",
 							"postman.setNextRequest(null);"
 						],
 						"type": "text/javascript"
